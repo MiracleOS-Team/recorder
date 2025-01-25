@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Audio Recorder
+Exec=miracle-recorder
+Icon=audio-recorder
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility;
