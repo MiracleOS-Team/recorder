@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 1.14)
 
-project(cyber-recorder LANGUAGES CXX)
+project(miracle-recorder LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -16,4 +16,4 @@ find_package(MeuiKit)
 
 add_subdirectory(src)
 
-install(FILES cyber-recorder.desktop DESTINATION "/usr/share/applications")
+install(FILES miracle-recorder.desktop DESTINATION "/usr/share/applications")
